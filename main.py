@@ -45,10 +45,10 @@ if __name__ == '__main__':
 
 
     start_time = time.time()
-    find_coins_greedy(1000)  # Change the amount as needed
+    find_coins_greedy(1000)  
     print("Greedy Algorithm --- %s seconds ---" % (time.time() - start_time))
 
     start_time = time.time()
-    find_min_coins(1000)  # Change the amount as needed
+    find_min_coins(1000)  
     print("Dynamic Programming --- %s seconds ---" % (time.time() - start_time))
 
